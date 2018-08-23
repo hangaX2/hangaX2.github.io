@@ -1,15 +1,25 @@
 ---
 layout: post
 title: Hello Ahreum!
+excerpt_separator:  <!--more-->
 ---
 
-한글은 이쁘게 나오려나? 아하아하!
-사진 넣는 법도 알아봐야 겠다 히히히
+안녕하세요! TEST 페이지입니다!ㅎㅎ
 
+### Keep It Simple
+
+In keeping with the original Hyde theme, Hydeout aims to keep the overall
+design lightweight and plugin-free. JavaScript is currently limited only
+to Disqus and Google Analytics (and is only loaded if you provide configuration
+variables).
+
+Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available,
+the CSS degrades into a single column layout.
 
 ### Customization
 
-안녕하세요! TEST PAGE 입니다!
+Hydeout replaces Hyde's class-based theming with the use
+of the following SASS variables:
 
 ```scss
 $sidebar-bg-color: #202020 !default;
@@ -49,6 +59,12 @@ of the body (e.g. for custom JS) by defining your own
   must have `sidebar_link: true` in their front matter to show up in
   the sidebar.
 
+* A simple redirect-to-Google search is available. If you want to use
+  Google Custom Search or Algolia or something with more involved,
+  override the `search.html`.
+
+* Disqus integration is ready out of the box. Just add the following to
+  your config file:
 
   ```yaml
   disqus:
