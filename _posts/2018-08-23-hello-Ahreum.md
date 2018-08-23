@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello Ahreum!
-Hello Ahreum  <!--more-->
+excerpt_separator: Hello!  <!--more-->
 ---
 
 한글은 이쁘게 나오려나?
