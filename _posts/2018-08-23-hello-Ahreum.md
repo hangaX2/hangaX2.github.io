@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Hello Ahreum!
-excerpt_separator: Hello!  <!--more-->
 ---
 
-한글은 이쁘게 나오려나?
+한글은 이쁘게 나오려나? 아하아하!
 사진 넣는 법도 알아봐야 겠다 히히히
 
 
